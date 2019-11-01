@@ -1,0 +1,43 @@
+
+<!-- 切换按钮 -->
+<view class="switchBtn" bindtap="switchClick">切换视频</view>
+
+<!-- 播放器界面 -->
+<swiper current="{{playType}}"
+        class='player-swiper'
+       >
+<swiper-item catchtouchmove="stopTouchMove">
+<!-- <video id="myVideo" src="https://swplus.oss-cn-hangzhou.aliyuncs.com/dfxcy-2/1-new/video/playlist.m3u8" danmu-list="{{}}" controls object-fit></video> -->
+
+<view id="myAudio">
+<view class="course-face">
+<image src="https://swplus-upload.oss-cn-hangzhou.aliyuncs.com/personalInfo/b2eef73a97674e0ac3ce68e90a85987a.jpg" mode="widthFix"></image>
+
+<view class="play-control-btn" hidden="{{isAudioPlay}}" bindtap="audioPlayAction">
+<image src="../../../assets/coursedetail/playbtn.png"></image>
+</view>
+
+<view class="play-control-btn" hidden="{{!isAudioPlay}}" bindtap="audioPlayAction">
+<image src="../../../assets/coursedetail/pausebtn.png"></image>
+</view>
+
+</view>
+<view class="title-box">
+<view class="title-name">使命召唤16：现代战争即将在10月25日解禁</view>
+<view class="title-detai">欢迎来到COD16，我是普莱斯，哈哈哈</view>
+</view>
+<view class="play-count">
+播放量：556万
+</view>
+
+ <progress-view currentTime="{{player.playing.currentTime}}" bind:playLast="playLast" bind:playNext="playNext"></progress-view>
+</view>
+</swiper-item>
+
+<swiper-item catchtouchmove="stopTouchMove">
+<video id="myVideo" src="https://oss.shhd.info/baozaige/1.mp4" danmu-list="{{}}" controls bindplay="startPlay"></video>
+</swiper-item>
+
+</swiper>
+
+

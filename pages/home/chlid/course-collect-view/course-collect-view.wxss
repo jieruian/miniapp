@@ -1,0 +1,7 @@
+.collect-view {
+height: 520rpx;
+/* background-color: powderblue; */
+white-space: nowrap;
+position: relative;
+
+}

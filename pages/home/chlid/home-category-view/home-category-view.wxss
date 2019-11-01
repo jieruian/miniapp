@@ -1,0 +1,32 @@
+.home-category-view {
+  height: 140rpx;
+  /* background-color: rgb(119, 236, 119); */
+  z-index: 999;
+  position: relative;
+}
+
+.category-title{
+  position: absolute;
+  left: 20rpx;
+  bottom: 56rpx;
+  font-size: 40rpx;
+  font-weight: 700;
+}
+
+.category-detail{
+  position: absolute;
+  left: 20rpx;
+  bottom: 20rpx;
+  color: #666;
+  font-size: 24rpx;
+  font-weight: 300;
+}
+
+.category-btn{
+ position: absolute;
+  right: 10rpx;
+  bottom: 46rpx;
+  color: #28B8A1;
+  font-size: 30rpx;
+  font-weight: 300;
+}

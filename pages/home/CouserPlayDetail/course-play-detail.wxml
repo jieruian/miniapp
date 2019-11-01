@@ -1,0 +1,20 @@
+<video id="VideoPlayer" src="{{videoUrl}}" danmu-list="{{}}" controls bindplay="startPlay"></video>
+<view class="cover-videoplayer-view" hidden="{{isCover}}">
+<image src="/assets/test/banner.png"  class="image-cover"></image>
+<view id="go-app-label">请前往「十万个创始人」APP内试听更多好课</view> 
+</view>
+<view class="top-view"></view>
+
+<!-- 标题 -->
+<view class="title-name">{{courseName}}</view>
+<!-- 副标题 -->
+<view class="title-mini-name">{{courseMiniName}}</view>
+<!-- 课程信息 -->
+<title-category titleName="课程信息"></title-category>
+<!-- 课程介绍 -->
+<view class="course-introduction">{{courseListIntroduction}}</view>
+<!-- 课程列表 -->
+<title-category titleName="课程列表"></title-category>
+<!-- 课程tableview -->
+<course-cell wx:for="{{dataArray}}" wx:key="{{item}}" myIndex="{{index}}" itemData="{{item}}" bind:itemClick="courseItemClick"></course-cell>
+<view style="height: 40rpx;background-color: #f0f2f5"></view>

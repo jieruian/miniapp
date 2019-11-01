@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "collect-cell": "./collect-cell/collect-cell"
+  }
+}

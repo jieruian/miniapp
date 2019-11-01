@@ -1,0 +1,4 @@
+
+<view class="collect-view">
+<article-cell wx:for="{{microappGanhuoList}}" wx:key="{{item}}" selectindex="{{index}}" itemObj="{{item}}"bind:articleClickAction="itemClick"></article-cell>
+</view>

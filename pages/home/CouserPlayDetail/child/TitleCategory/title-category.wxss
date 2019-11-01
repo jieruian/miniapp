@@ -1,0 +1,32 @@
+page{
+  background-color: #f0f2f5;
+}
+.title-name-box{
+ background-color: #f0f2f5;
+ display: inline-block;
+ height: 100rpx;
+ position: relative;
+ z-index: 9;
+}
+.tip-imageview{
+  position: absolute;
+  top:50%;
+  left: 24rpx;
+  background-color: #28b8a1;
+  margin-top:-18rpx;
+  height: 36rpx;
+  width: 8rpx;
+}
+.title-name {
+  color: #484848;
+  font-weight: 500;
+  position: absolute;
+  left: 50rpx;
+  top: 50%;
+  height: 50rpx;
+  margin-top:-25rpx;
+  background-color: #f0f2f5;
+  width: 300rpx;
+  font-size: 36rpx;
+}
+

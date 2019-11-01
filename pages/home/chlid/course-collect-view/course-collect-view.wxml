@@ -1,0 +1,4 @@
+
+<scroll-view class="collect-view" scroll-x>
+<collect-cell wx:for="{{courseArray}}" wx:key="{{item}}"class="collect-cell" itemObj="{{item}}" selectindex="{{index}}" bind:courseClickAction="itemClick" tipPath="{{tipNums[index]}}"></collect-cell>
+</scroll-view>

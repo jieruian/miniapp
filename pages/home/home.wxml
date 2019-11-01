@@ -1,0 +1,20 @@
+
+<!-- 首页banner界面 -->
+<banner-view lists="{{bannerImgList}}" bind:swiperAction="swiperClick"></banner-view>
+<!-- <swiper-fit listimg="{{bannerImgList}}" id="swpierId" bind:imageload="imageAllLoad" bind:swiperAction="swiperClick"></swiper-fit> -->
+
+<!-- 课程试看view -->
+<home-category-view bind:btnclick="courseMoreClick" titleString="{{categoryTitles[0]}}" miniTitleString="{{categoryMiniTitles.length > 0 ? categoryMiniTitles[0] : ''}}"></home-category-view>
+
+<!-- 课程展示的collectview -->
+<course-collect-view  bind:itemClick="courseClickAction" courseArray="{{microAppCourseVoList}}"></course-collect-view>
+
+<!-- 课程试看view -->
+<home-category-view bind:btnclick="articleMoreClick" titleString="{{categoryTitles[1]}}" miniTitleString="{{categoryMiniTitles.length > 1 ? categoryMiniTitles[1] : ''}}"></home-category-view>
+
+<!-- 创业干货 -->
+<article-collect-view bind:itemClick="articleClickAction" microappGanhuoList="{{microappGanhuoList}}" ></article-collect-view>
+
+
+<!-- 下载App提示 -->
+<view class="remind-app">---更多优质体验请下载"十万个创始人"App---</view>

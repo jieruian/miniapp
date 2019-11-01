@@ -1,0 +1,9 @@
+<view style="height:10px"></view>
+<article-collect-view bind:itemClick="articleClickAction" microappGanhuoList="{{dataArray}}"></article-collect-view>
+<!-- 下载App提示 -->
+<view class="remind-app">
+<text>.....................................................................................................................\n
+ 关注「十万个创始人」公总号 \n 
+ 获取更多专业干货</text>
+</view>
+<view style="height:16rpx"></view>

@@ -1,0 +1,78 @@
+.course-collect-cell{
+  /* background-color: pink; */
+  height: 1028rpx;
+  width: 600rpx;
+  display: inline-block;
+  margin: 0 20rpx;
+  padding-bottom: 176rpx;
+  position: relative;
+}
+
+.fengmian{
+  width: 100%;
+  border-radius: 10rpx;
+}
+.tip-num {
+  position: absolute;
+  left: 0rpx;
+  top: 248rpx;
+  width: 240rpx;
+  height: 60rpx;
+}
+
+.play-couser-btn{
+  position: absolute;
+  right: 20rpx;
+  top: 256rpx;
+  width: 80rpx;
+  height: 44rpx;
+}
+
+.course-collect-cell .corse-name{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 36rpx;
+  font-weight: 500;
+  color: #484848
+}
+
+.course-collect-cell .corse-mini-name{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 32rpx;
+  font-weight: 300;
+  color: #808080;
+  margin-top: 12rpx;
+}
+
+.course-collect-cell .discuss-box{
+  /* white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 24rpx;
+  font-weight: 300;
+  color: #28B8A1;
+  background-color: #D4F1EC;
+  border-radius: 6rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  margin-top: 8rpx; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+  color: #28B8A1;
+  font-size: 24rpx;
+  background-color: #D4F1EC;
+  border-radius: 6rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  margin-top: 8rpx;
+}
+.discuss-title{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}

@@ -1,0 +1,5 @@
+<view class="home-category-view">
+<view class="category-title">{{titleString}}</view>
+<view class="category-detail">{{miniTitleString}}</view>
+<view class="category-btn" bindtap="btnClick">更多>></view>
+</view>

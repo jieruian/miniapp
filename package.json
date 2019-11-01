@@ -1,0 +1,26 @@
+{
+  "name": "miniprogramme",
+  "version": "1.0.0",
+  "description": "小程序商城",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jieruian/minitest.git"
+  },
+  "keywords": [
+    "gujie35857930"
+  ],
+  "author": "lishaoyu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jieruian/minitest/issues"
+  },
+  "homepage": "https://github.com/jieruian/minitest#readme",
+  "dependencies": {
+    "miniprogram-sm-crypto": "^0.1.0",
+    "vant-weapp": "^1.0.0-beta.0"
+  }
+}

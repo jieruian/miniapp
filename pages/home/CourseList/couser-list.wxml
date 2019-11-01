@@ -1,0 +1,13 @@
+<view style="height:30rpx"></view>
+
+<view class="collect-view">
+<course-collect-cell wx:for="{{dataArray}}" wx:key="{{item}}" selectindex="{{index}}" itemObj="{{item}}" bind:courseClickAction="itemClick" tipPath="{{index<3 ? tipNums[index] : ''}}"></course-collect-cell>
+</view>
+
+<!-- 下载App提示 -->
+<view class="remind-app">
+<text>....................................................................................................................... \n
+ 在「十万个创始人」APP中 \n 
+ 免费试听更多</text>
+</view>
+<view style="height:16rpx"></view>

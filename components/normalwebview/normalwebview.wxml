@@ -1,0 +1,3 @@
+<!--components/normalwebview/normalwebview.wxml-->
+<web-view src="{{webUrl}}"></web-view>
+<official-account binderror="binderror" bindload="bindload"></official-account>

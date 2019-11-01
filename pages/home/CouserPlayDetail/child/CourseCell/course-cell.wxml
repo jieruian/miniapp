@@ -1,0 +1,8 @@
+<view class="cell-box" bindtap="itemClick">
+<view class="cell-title-background">
+<image src="{{itemData.isselected ? '/assets/home/playingState.png' : '/assets/home/pauseState.png' }}" class="playing-image"></image>
+<view class="title-name {{itemData.isselected ? 'title-name-selected' : ''}}">{{courseTitle}}</view>
+<view class="time-text {{itemData.isselected ? 'time-text-selected' : ''}}">{{timeLength}}</view>
+</view>
+<view style="height:10rpx;background-color: #f0f2f5;"></view>
+</view>

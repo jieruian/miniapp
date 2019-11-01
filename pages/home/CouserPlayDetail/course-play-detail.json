@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+   "title-category" :"./child/TitleCategory/title-category",
+   "course-cell":"./child/CourseCell/course-cell"
+  }
+}

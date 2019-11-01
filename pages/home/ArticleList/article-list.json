@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "article-collect-view": "../chlid/article-collect-view/article-collect-view"
+  },
+  "navigationBarTitleText": "创业干货",
+   "enablePullDownRefresh": true,
+   "backgroundTextStyle": "dark"
+}

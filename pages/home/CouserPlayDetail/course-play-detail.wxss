@@ -1,0 +1,78 @@
+#VideoPlayer {
+  width: 100vw;
+  height: 56.25vw;
+  /* background-color: antiquewhite; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 59;
+}
+.cover-videoplayer-view{
+  width: 100vw;
+  height: 56.25vw;
+  background-color: #737373;
+  top: 0;
+  left: 0;
+  color: #cecece;
+  text-align: center;
+  font-size: 28rpx;
+  line-height: 56.25vw;
+  z-index: 99;
+  position: fixed;
+}
+.image-cover{
+  width: 100vw;
+  height: 56.25vw;
+  background-color: #737373;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 8;
+}
+#go-app-label{
+  position: fixed;
+  top:0;
+  width: 100vw;
+  height: 56.25vw;
+  z-index: 9;
+  /* left: 50%; */
+  /* margin-left:-50rpx; */
+  /* margin-top:-50rpx; */
+  text-align: center;
+}
+.top-view {
+   width: 100vw;
+  height: 56.25vw;
+}
+
+.title-name {
+  color: #484848;
+  font-size: 36rpx;
+  font-weight: 500;
+  padding-top: 30rpx;
+  padding-left: 20rpx; 
+  padding-right: 20rpx;
+  padding-bottom: 8rpx; 
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: #f0f2f5;
+}
+
+.title-mini-name{
+  color: #808080;
+  font-size: 32rpx;
+  /* font-weight: 600; */
+  padding: 0rpx 20rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: #f0f2f5;
+}
+.course-introduction{
+  color: #808080;
+  font-size: 28rpx;
+  line-height: 46rpx;
+  padding: 0 20rpx;
+  margin-top: -10rpx;
+}

@@ -1,0 +1,33 @@
+.article-cell {
+  height: 240rpx;
+  position: relative;
+}
+
+.article-image {
+  height: 200rpx;
+  width: 200rpx;
+  background-color: #28B8A1;
+  border-radius: 10rpx;
+  margin:0 20rpx 20rpx;
+}
+
+
+.article-cell .article-name {
+  position: absolute;
+  right: 20rpx;
+  top: 10rpx;
+  left: 240rpx;
+  font-size: 30rpx;
+  font-weight: 450;
+  color: #484848;
+}
+
+.article-cell .read-num {
+  position: absolute;
+  right: 20rpx;
+  bottom: 50rpx;
+  left: 240rpx;
+  font-size: 24rpx;
+  font-weight: 300;
+  color: #949494;
+}

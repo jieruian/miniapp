@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/profile/profile",
+    "pages/index/index",
+    "pages/logs/logs",
+    "components/normalwebview/normalwebview",
+    "pages/home/coursedetail/course-detail-play",
+    "pages/home/ArticleList/article-list",
+    "pages/home/CourseList/couser-list",
+    "pages/home/CouserPlayDetail/course-play-detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#28B8A1",
+    "navigationBarTitleText": "十万个创始人",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "selectedColor": "#28B8A1",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "assets/tabbar/ziyuan.png",
+        "selectedIconPath": "assets/tabbar/ziyuans.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "assets/tabbar/wode.png",
+        "selectedIconPath": "assets/tabbar/wodes.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 8000
+  },
+  "sitemapLocation": "sitemap.json"
+}

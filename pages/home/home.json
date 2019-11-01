@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "banner-view": "/components/banner-view/banner-view",
+    "swiper-fit": "/components/swiperFit/index",
+    "home-category-view": "./chlid/home-category-view/home-category-view",
+    "course-collect-view": "./chlid/course-collect-view/course-collect-view",  "article-collect-view":"./chlid/article-collect-view/article-collect-view"
+  },
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark"
+}

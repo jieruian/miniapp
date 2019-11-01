@@ -1,0 +1,4 @@
+<view class="title-name-box">
+<view class="tip-imageview"></view>
+<view class="title-name">{{titleName}}</view>
+</view>

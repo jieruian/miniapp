@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "course-collect-cell": "./child/course-collect-view"
+  },
+  "navigationBarTitleText": "课程试看",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark"
+}

@@ -1,0 +1,8 @@
+.remind-app{
+  font-size: 24rpx;
+  color: #28B8A1;
+  vertical-align:middle;
+  text-align:center;
+  margin-bottom: 20rpx;
+  height: 80rpx;
+}

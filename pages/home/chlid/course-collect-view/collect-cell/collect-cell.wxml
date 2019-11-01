@@ -1,0 +1,14 @@
+<!--pages/home/chlid/course-collect-view/collect-cell/collect-cell.wxml-->
+<view class="course-collect-cell" bindtap="btnClick">
+<image src="{{itemObj.microappIcon}}" mode="widthFix" class="fengmian"></image>
+<image src="{{tipPath}}" class="tip-num"></image>
+<image src="/assets/home/playbutton.png" class="play-couser-btn"></image>
+<view class="corse-name">{{courseTitle}}</view>
+<view class="corse-mini-name">{{courseMiniTitle}}</view>
+<view class="discuss-box">
+<!-- "创业是快乐的事情，感谢樊老师" -->
+<view class="left-mark" style="padding-left:10rpx">“</view>
+<view class="discuss-title">{{itemObj.popularComment}}</view>
+<view class="right-mark" style="padding-right:10rpx">”</view>
+</view>
+</view>

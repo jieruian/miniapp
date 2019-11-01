@@ -1,0 +1,10 @@
+.swiper-item image {
+  width: 100%;
+}
+
+.swiper {
+  border-radius: 20rpx;
+  /* height: 240rpx; */
+  height: 380rpx;
+  /* overflow: hidden; */
+}

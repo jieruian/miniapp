@@ -1,0 +1,5 @@
+<view class="article-cell" bindtap="btnClick">
+<image src="{{itemObj.icon}}" class="article-image"></image>
+<view class="article-name">{{itemObj.title}}</view>
+<view class="read-num">热度：{{itemObj.hotIndex}}</view>
+</view>

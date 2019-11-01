@@ -1,0 +1,23 @@
+<view class="course-cell" bindtap="btnClick">
+<view class="course-face-box">
+<image src="{{itemObj.microappIcon}}" mode="widthFix" class="fengmian"></image>
+<image src="{{tipPath}}" class="tip-num"></image>
+<image src="/assets/home/playbutton.png" class="play-couser-btn"></image>
+</view>
+<!-- 大标题 -->
+<view class="article-name">{{courseTitle}}</view>
+
+<!-- 副标题 -->
+<view class="article-mini-name">{{courseMiniTitle}}</view>
+
+<!-- 评论 -->
+<!-- <view class="discuss-box">
+<view class="left-mark" style="padding-left:10rpx">“</view>
+<view class="discuss-title">创业是快乐的事情，感谢樊老师,我学会了好多的东西啊，真的是很开心啊，哈哈哈</view>
+<view class="right-mark" style="padding-right:10rpx">”</view>
+</view> -->
+
+<!-- 老师名字 -->
+<view class="autor-name">{{itemObj.teacherName}}</view>
+</view>
+
